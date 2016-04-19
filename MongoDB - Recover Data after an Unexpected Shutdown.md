@@ -9,7 +9,7 @@ This indicates that you need to run mongod with the --repair option. If you run 
 `old lock file: /data/db/mongod.lock. probably means unclean shutdown`
 
 1. Remember your dbpath
-2. run this command ```mongod --dbpath /your/db/path```
+2. run this command ```mongod --dbpath /your/db/path``` --repair
 
 To repair your data files using the --repairpath option to preserve the original data files unmodified.
 ```mongod --dbpath /your/current/dbpath --repair --repairpath /repair/path```
